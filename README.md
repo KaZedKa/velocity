@@ -1,5 +1,5 @@
 Docker image to run velocity server. 
-To use run: docker run -d kazedka/velocity -p 25565:25565 -name velocity 
+To use run: docker run -d -it -p 25565:25565 --name velocity kazedka/velocity
 
 Can edit the config by doing: 
 1. docker exec velocity /bin/bash
